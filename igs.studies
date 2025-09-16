@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>IGS Coaching — Class 9-12 (CBSE/State)</title>
+  <meta name="description" content="IGS Coaching — Expert teachers, small batches, concept-based coaching for Class 9-12." />
+  <style>
+    :root{--accent:#0b61a4;--muted:#666}
+    *{box-sizing:border-box} body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;color:#111}
+    header{background:var(--accent);color:#fff;padding:18px 16px}
+    .container{max-width:1000px;margin:0 auto;padding:20px}
+    nav{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+    nav a{color:#fff;text-decoration:none;font-weight:600}
+    .hero{display:flex;flex-direction:column;gap:12px;padding:28px 0}
+    .btn{background:#fff;color:var(--accent);padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:700}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+    .card{border:1px solid #eee;padding:14px;border-radius:8px;background:#fff}
+    footer{background:#f7f7f7;padding:18px 0;color:var(--muted);margin-top:28px}
+    @media(min-width:800px){ .hero{flex-direction:row;justify-content:space-between;align-items:center} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div style="font-weight:800;font-size:18px">IGS Coaching</div>
+        <div style="flex:1"></div>
+        <a href="#courses">Courses</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#fees">Fees</a>
+        <a href="#enroll">Enroll</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="hero">
+        <div>
+          <h1 style="margin:0;font-size:24px">IGS Coaching — Concept-based tuition for Class 9-12</h1>
+          <p style="margin:8px 0;color:#fff;opacity:0.95">Small batches · Experienced teachers · Exam-focused practice</p>
+          <a class="btn" href="https://wa.me/918668338276?text=Hello%20I%20want%20IGS%20Coaching%20details">WhatsApp par poochhen</a>
+        </div>
+        <div style="max-width:420px">
+          <!-- Embed YouTube playlist: replace PLAYLIST_ID below with your playlist id -->
+          <iframe width="100%" height="220" src="https://www.youtube.com/embed?listType=playlist&list=PLAYLIST_ID" title="IGS Videos" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" style="margin-top:18px">
+      <h2>About IGS Coaching</h2>
+      <p>IGS Coaching me hum concept clear karte hain, regular tests karvate hain aur doubt solving par focus karte hain. Humare batches chote hote hain taaki personal attention mile.</p>
+    </section>
+
+    <section id="courses" style="margin-top:18px">
+      <h2>Courses</h2>
+      <div class="grid">
+        <div class="card"><h3>Class 10 — Science + Maths</h3><p>Concept + NCERT + Examination practice</p></div>
+        <div class="card"><h3>Class 12 — Physics / Chemistry / Maths</h3><p>Board + Competitive exam pattern guidance</p></div>
+        <div class="card"><h3>Crash Course</h3><p>Term exams / Revision / Doubt classes</p></div>
+      </div>
+    </section>
+
+    <section id="schedule" style="margin-top:18px">
+      <h2>Schedule</h2>
+      <p>Morning / Evening batches — contact karke apne liye best batch confirm karein.</p>
+    </section>
+
+    <section id="fees" style="margin-top:18px">
+      <h2>Fees</h2>
+      <p>Different courses ke liye alag fees. Latest fee structure ke liye WhatsApp karein.</p>
+    </section>
+
+    <section id="enroll" style="margin-top:18px">
+      <h2>Enroll</h2>
+      <p>Enrollment ke liye Google Form use kijiye (ya yahan embed karein). Form me Name, Class, Phone, Preferred batch, City, Message puchiye.</p>
+      <!-- Example embed placeholder: paste Google Form iframe here -->
+    </section>
+
+    <section id="testimonials" style="margin-top:18px">
+      <h2>Testimonials</h2>
+      <div class="grid">
+        <div class="card"><strong>Ramesh, Class 10</strong><p>"Concept bilkul clear ho gaye, marks badhe."</p></div>
+        <div class="card"><strong>Seema, Parent</strong><p>"Personal attention bahut achha mila."</p></div>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:18px">
+      <h2>Contact</h2>
+      <p>Phone / WhatsApp: <a href="tel:+918668338276">+91-8668338276</a></p>
+      <p>Email: <a href="mailto:info@igscoaching.example">info@igscoaching.example</a> (replace with your email)</p>
+      <p>Address: (aapka coaching centre address yahan dalein)</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© IGS Coaching — All rights reserved.</small>
+    </div>
+  </footer>
+</body>
+</html>
